@@ -1,0 +1,4 @@
+#Sat Apr 16 01:37:17 ICT 2022
+base.0=D\:\\HK2-NAM4\\Android\\Lab4_UILabs\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
