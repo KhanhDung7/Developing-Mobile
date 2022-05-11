@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#000000">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="500dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/box_top_column_1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#6495ED"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:id="@+id/box_bottom_column_1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FF69B4"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginRight="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="500dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/box_top_column_2"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#8B0000"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:id="@+id/box_middle_column_2"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#F5FFFA"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:id="@+id/box_bottom_column_2"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#191970"
+                    android:layout_marginBottom="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:thumbTint="#F08080"
+            android:progressTint="#F08080"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
